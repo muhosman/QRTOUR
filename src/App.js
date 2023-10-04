@@ -12,7 +12,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-gradient-wave h-screen flex flex-col items-center bg-white">
+    <div className="bg-gradient-wave h-screen flex flex-col items-center bg-white overflow-scroll pb-10 px-4">
       <div className="flex flex-col mt-2 justify-center ">
         <img
           className=" rounded-xl shadow-xl w-[24rem]  h-fit"
