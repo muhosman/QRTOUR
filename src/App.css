@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* App.css */
+
+@keyframes gradientWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* App.css */
+
+div.bg-gradient-wave {
+  background: linear-gradient(90deg, #6499e9, #a6f6ff, #a6f6ff, #6499e9);
+  background-size: 400% 400%;
+}
+
+/* App.css */
+
+@keyframes borderGlow {
+  0% {
+    border-color: red;
+    box-shadow: 0 0 20px red;
+  }
+  25% {
+    border-color: yellow;
+    box-shadow: 0 0 20px yellow;
+  }
+  50% {
+    border-color: green;
+    box-shadow: 0 0 20px green;
+  }
+  75% {
+    border-color: blue;
+    box-shadow: 0 0 20px blue;
+  }
+  100% {
+    border-color: red;
+    box-shadow: 0 0 20px red;
+  }
+}
+
+/* App.css */
+
+.glowingBorder {
+  border-width: 2px;
+  border-style: solid;
+  animation: borderGlow 5s infinite;
 }
