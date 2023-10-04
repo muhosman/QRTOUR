@@ -4,7 +4,7 @@ import { RiBus2Fill } from "react-icons/ri";
 import { TbPointFilled } from "react-icons/tb";
 import { FaRegHandPointLeft } from "react-icons/fa";
 import { TfiHandPointLeft } from "react-icons/tfi";
-
+//Recep ivedik
 import logo from "./ekoaraba.jpeg";
 import "./App.css";
 
